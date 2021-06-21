@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'F37 Bobby';
+  font-weight: 400;
+  font-display:swap;
+  src: url('/fonts/F37Bobby-Regular.woff') format('woff'),
+       url('/fonts/F37Bobby-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'F37 Jan';
+  font-weight: 400;
+  font-display:swap;
+  src: url('/fonts/F37Jan-Regular.woff') format('woff'),
+       url('/fonts/F37Jan-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'F37 Jan';
+  font-weight: 400;
+  font-style: italic;
+  font-display:swap;
+  src: url('/fonts/F37Jan-RegularItalic.woff') format('woff'),
+       url('/fonts/F37Jan-RegularItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'F37 Jan';
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/F37Jan-Bold.woff') format('woff'),
+       url('/fonts/F37Jan-Bold.woff2') format('woff2');
+}
+
+.font-display {
+  font-feature-settings: "clig", "liga";
+}
